@@ -1,0 +1,34 @@
+DE
+- window manager : i3
+- panel / dock / bar : i3bar & i3status
+- notification daemon
+- app launcher : dmenu
+- display manager : ly
+- window compositor : picom
+- terminal emulator : uxrvt
+
+
+tools
+- change resolution : xrandr
+- change wallpaper : feh = bunga2.jpg
+- music player : mpd & ncmpcpp, cmus
+- spektrum music : cava
+- screen recorder : ffmpeg
+- translator : trans 
+- package manager : apt & aptitude
+- file manager cli : ranger
+- layar redup : xset 
+-
+-
+- 
+
+question (21/12/23)
+- what is .Xresources
+- what is X11
+
+Answer
+- x11 itu sistem tampilan grafis pada unix/linux yg memuat kerangka kerja dasar untuk
+untuk tampilan grafis, sedangkan xresources adalah berkas untuk memberi modifikasi pada
+sistem x11 itu sendiri, perbadingannya jika di windows mempunya GDI dan WPF.
+
+4.26 i3 user's guide
