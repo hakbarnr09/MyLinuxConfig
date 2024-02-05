@@ -1,0 +1,56 @@
+! special
+*.foreground:   #dfd5d5
+*.background:   #0c0606
+*.cursorColor:  #dfd5d5
+
+! black
+*.color0:       #150c0c
+*.color8:       #c9d5eb
+
+! red
+*.color1:       #221616
+*.color9:       #77c0bd
+
+! green
+*.color2:       #372627
+*.color10:      #99d1cf
+
+! yellow
+*.color3:       #553c3d
+*.color11:      #99d1cf
+
+! blue
+*.color4:       #7b585a
+*.color12:      #e3b2b5
+
+! magenta
+*.color5:       #a57c7e
+*.color13:      #8fe593
+
+! cyan
+*.color6:       #c2acad
+*.color14:      #db84d9
+
+! white
+*.color7:       #e8e1e1
+*.color15:      #80cbc9
+
+
+! font
+URxvt.letterSpace: 1
+URxvt.font: xft:droid sans mono:size=9
+
+! do not scroll with output
+!URxvt*scrollTtyOutput: false
+
+URxvt.scrollBar: false
+!urxvt*transparent: true
+!urxvt*shading: 15
+
+! scroll dengan keyboard
+URxvt*perl-ext-common:  default,keyboard-select
+URxvt.keysym.Shift-Up: perl:keyboard-select:up
+URxvt.keysym.Shift-Down: perl:keyboard-select:down
+URxvt.keysym.Shift-Page_Up: perl:keyboard-select:page-up
+URxvt.keysym.Shift-Page_Down: perl:keyboard-select:page-down
+
